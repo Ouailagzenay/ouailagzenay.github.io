@@ -4,11 +4,212 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
- <h1>hallo adnan
-     
- </h1>   
+    <header class="header" id="header">
+        <!-- Top fixed navbar -->
+        <nav class="navbar navbar-top navbar-expand-md navbar-dark header__navbar">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#">Ouail Agzenay</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarTopCollapsible" aria-controls="navbarTopCollapsible" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTopCollapsible">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    
+        <!-- Centered content -->
+        <div class="header__content">
+            <div class="header__img-box">
+                <img class="image-ouail" src="Ima2.png" alt="Ouail">
+            </div>
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Ouail Agzenay</span>
+                <span class="heading-primary--sub">Full Stack Developer</span>
+            </h1>
+            <div class="header__cta-box">
+                <a href="#about" class="btn btn--full">About</a>
+                <a href="#work" class="btn btn--ghost">Work</a>
+            </div>
+        </div>
+    
+    </header>
+    <section class=" row " id="about" >
+        <p class="What col-lg-12 col-md-12 col-sm-12 col-xs-12 h1">What I Do ?</p>
+          <img class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ca" src="ima3.jpg" alt="image">
+          <div class=" div4 col-lg-4 col-sm-12 col-md-10 col-xs-12">
+          <p class="Full col-lg-12 col-md-12 col-sm-12 col-xs-12 h2">Full Stack Development</p>
+          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 html-icon" src="logo/html.png" alt="">
+          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 css-icon" src="logo/css.png" alt="">
+          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 js-icon" src="logo/js.png" alt="">
+          <img class="col-lg-2 col-md-3 col-sm-2 col-xs-2 php-icon" src="logo/php.png" alt="">
+          <img class="col-lg-3 col-md-2 col-sm-3 col-xs-2 react-icon" src="logo/react.png" alt="">
+          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 boostrab-icon" src="logo/boostrab.png" alt="">
+          <img class="col-lg-2 col-md-3 col-sm-2 col-xs-2 jquery-icon" src="logo/jquery.png" alt="">
+          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 git-icon" src="logo/git.png" alt="">
+          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p1">Building resposive website  fornt end using React-Redux</p>
+          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p1">Creating application backend in Node.Express & Flask</p>
+       </div>
+      </section>
+      <section class="row">
+        <img class="col-lg-6 col-md-12 col-sm-12  col-xs-11" src="ima4.jpg" alt="">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 div5">
+          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12  Full h2">UI/UX Desing</p>
+          <img class="col-lg-2 col-md-3 col-sm-3 col-xs-3  figma-icon" src="logo/figma.jpg" alt="">
+          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, nihil?</p>
+          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, earum </p>
+          <p class="col-lg-12  p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, earum </p>
+        </div>
+      </section>
+      <section class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            
+                            <div class="icon counter__icon  gi"><i id="gi" class="fas fa-code"></i></i></div>
+                            
+                        </div>
+                        <span class="counter__count">3456</span>
+                        <p class="counter__title">Lines of code</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            <div class="icon counter__icon  "><i id="gi"  class="fab fa-github"></i></div>
+                            
+                        </div>
+                        <span class="counter__count">22</span>
+                        <p class="counter__title">Projects done</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                           <div class="icon counter__icon  "><i id="gi" class="fas fa-pen-square"></i></div>
+                        </div>
+                        <span class="counter__count">43</span>
+                        <p class="counter__title">Articles written</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="counter__box">
+                        <div class="counter__icon-box">
+                            
+                            <div class="icon counter__icon  "><i id="gi" class="fas fa-sun"></i></i></div>
+
+                        </div>
+                        <span class="counter__count">18</span>
+                        <p class="counter__title">Years lived</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-8">
+                    <h2 class="heading-secondary ">Contact me</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="Username">Username</label>
+                            <input required type="text" class="form-control" id="Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input required type="email" class="form-control" id="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input required type="text" class="form-control" id="subject">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea required type="text" class="form-control" id="message" rows="4"></textarea>
+                        </div>
+
+
+                        <button type="submit" class="mt-2 btn btn--full float-right">Send <svg
+                                class="icon btn__icon-right">
+                                <use xlink:href="./img/SVG/symbol-defs.svg#icon-paper-plane"></use>
+                            </svg></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-12  py-5 text-center mb-2">
+                    <h3 class="mb-4 heading-tertiary footer__social-heading">Stay connected</h3>
+                    <!-- Absolute positioned social icons -->
+                    <div class=" social-icons social-icons--lg">
+                        <a href="#" class="social-icons__link">
+                         <img class="icon social-icons__icon" src="icon/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="social-icons__link">
+                          <img class="icon social-icons__icon" src="icon/instagram.png" alt="">
+                      </a>
+                        <a href="#" class="social-icons__link">
+                          <img class="icon social-icons__icon" src="icon/whatsapp.png" alt="">
+                        </a>
+                        <a href="#" class="social-icons__link">
+                          <img class="icon social-icons__icon" src="icon/discord.png" alt="">
+                        </a>
+                        <a href="#" class="social-icons__link">
+                          <img class="icon social-icons__icon" src="icon/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="col-12 mt-auto">
+                    <nav class="nav footer__nav justify-content-around">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    <script src="./js/vendors/jquery/jquery.min.js"></script>
+    <script src="./js/vendors/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./js/vendors/popper/popper.min.js"></script>
+    <script src="./js/vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    
 </body>
 </html>
