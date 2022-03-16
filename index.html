@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./javascript/scrollreveal.min.js"></script>
+    <script defer type="text/javascript" src="./javascript/scrollveal.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
     
@@ -59,34 +62,134 @@
         </div>
     
     </header>
-    <section class=" row " id="about" >
-        <p class="What col-lg-12 col-md-12 col-sm-12 col-xs-12 h1">What I Do ?</p>
-          <img class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ca" src="ima3.jpg" alt="image">
-          <div class=" div4 col-lg-4 col-sm-12 col-md-10 col-xs-12">
-          <p class="Full col-lg-12 col-md-12 col-sm-12 col-xs-12 h2">Full Stack Development</p>
-          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 html-icon" src="logo/html.png" alt="">
-          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 css-icon" src="logo/css.png" alt="">
-          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 js-icon" src="logo/js.png" alt="">
-          <!-- <img class="col-lg-2 col-md-3 col-sm-2 col-xs-2 php-icon" src="logo/php.png" alt="">
-          <img class="col-lg-3 col-md-2 col-sm-3 col-xs-2 react-icon" src="logo/react.png" alt=""> -->
-          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 boostrab-icon" src="logo/boostrab.png" alt="">
-          <!-- <img class="col-lg-2 col-md-3 col-sm-2 col-xs-2 jquery-icon" src="logo/jquery.png" alt=""> -->
-          <img class="col-lg-2 col-md-2 col-sm-2 col-xs-2 git-icon" src="logo/git.png" alt="">
-          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p1">Building responsive website front-and   <!--Building resposive website  fornt end using React-Redux --></p>
+   
+       <!--Projects Section-->
+  <section id="projects">
+    <div class="container1">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p1">Creating application backend in Node.Express & Flask</p> -->
-       </div>
-      </section>
-      <section class="row">
-        <img class="col-lg-6 col-md-12 col-sm-12  col-xs-11" src="ima4.jpg" alt="">
-        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 div5">
-          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12  Full h2">UI/UX Desing</p>
-          <img class="col-lg-2 col-md-3 col-sm-3 col-xs-3  figma-icon" src="logo/figma.jpg" alt="">
-          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p2">Designing highly attractive user interface for mobile and web applications</p>
-          <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p2">Creating the flow of application functionalities to optimize user experience</p>
-          <!-- <p class="col-lg-12  p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, earum </p> -->
+        <!-- Each .row is a project -->
+        <div class="row1">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">hotel OG2</h3>
+            <p class="project-wrapper__text-info">
+              Showcase website for a sport company that allows user to know products and services that the company offer
+              Home page
+              Product page
+              About us page
+              contact us page
+            </p>
+            <p class="project-wrapper__text-info">Build with HTML5, CSS3.</p>
+
+            <div class="project-wrapper__text-btns">
+              <a href="https://maskoul-mohamed.github.io/projet5-site-vitrine/code/index.html" target="_blank"
+                rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/maskoul-mohamed/projet5-site-vitrine" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://maskoul-mohamed.github.io/projet5-site-vitrine/code/index.html" target="_blank"
+              rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="ima/Capture.PNG" class="img-fluid" alt="Project Image" />
+              </div>
+            </a>
+          </div>
         </div>
-      </section>
+        <!-- /END Project -->
+
+        <!-- Each .row is a project -->
+        <div class="row1">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Rolex</h3>
+            <p class="project-wrapper__text-info">
+              The landing page of Home Chef that is a responsive web page.
+            </p>
+            <p class="project-wrapper__text-info">Build with HTML5, CSS3.</p>
+
+            <div class="project-wrapper__text-btns">
+              <a href="https://maskoul-mohamed.github.io/Projet3-Landing-Page/realisation/" target="_blank"
+                rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+              <a href="https://github.com/maskoul-mohamed/Projet3-Landing-Page" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://maskoul-mohamed.github.io/Projet3-Landing-Page/realisation/" target="_blank"
+              rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./ima/CaptureA.PNG" class="img-fluid" alt="Project Image" />
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- /END Project -->
+        
+        <!-- Each .row is a project -->
+        <div class="row1">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Gestion d'ouvrages v2</h3>
+              <p class="project-wrapper__text-info">
+                Library manager app(CRUD) that can help the librarian to manage the books in the table
+                (name, author, price, date of publish, type). it can edit or delete any row in the table.
+              </p>
+              <p class="project-wrapper__text-info">Build with HTML5, CSS3, javascript, Bootstrap.</p>
+  
+              <div class="project-wrapper__text-btns">
+                <a href="https://maskoul-mohamed.github.io/project7-library-manager-app/src/index.html"
+                  target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+                <a href="https://github.com/maskoul-mohamed/project7-library-manager-app-v1" target="_blank"
+                  class="cta-btn text-color-main">Source Code</a>
+              </div>
+            </div>
+  
+            <div class="project-wrapper__image">
+              <a href="https://maskoul-mohamed.github.io/project7-library-manager-app/src/index.html" target="_blank"
+                rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="ima/Capture1.PNG" class="img-fluid" alt="Project Image" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /END Project -->
+  
+          <!-- Each .row is a project -->
+          <div class="row1">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Jeux avec javascript</h3>
+              <p class="project-wrapper__text-info">
+                Share your ideas with different people from the world!
+              </p>
+              <p class="project-wrapper__text-info">Build with HTML5, CSS3, JavaScript
+              </p>
+  
+              <div class="project-wrapper__text-btns">
+                <a href="https://blooming-hamlet-26925.herokuapp.com/"
+                  target="_blank" rel="noopener noreferrer" class="cta-btn cta-btn--hero cta-btn--projects">See Live</a>
+                <a href="https://github.com/maskoul-mohamed/my-blog-redux" target="_blank"
+                  class="cta-btn text-color-main">Source Code</a>
+              </div>
+            </div>
+  
+            <div class="project-wrapper__image">
+              <a href="https://blooming-hamlet-26925.herokuapp.com/" target="_blank"
+                rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img src="ima/Capture2.PNG" class="img-fluid" alt="Project Image" />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
       <section class="counter">
         <div class="container">
             <div class="row">
